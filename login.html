@@ -1104,6 +1104,8 @@ categoryMenu.stop(true,true).slideUp(200);
                 $('#loginType').val(LOGIN_TYPE_B2C);
                 $(this).addClass('on');
                 $('#b2bLoginTypeBtn').removeClass('on');
+                $('.snsLogin').addClass('on');
+                $('.loginbanner').removeClass('on');
 
             });
 
@@ -1117,6 +1119,8 @@ categoryMenu.stop(true,true).slideUp(200);
                 $('#loginType').val(LOGIN_TYPE_B2B);
                 $(this).addClass('on');
                 $('#b2cLoginTypeBtn').removeClass('on');
+                $('.snsLogin').removeClass('on');
+                $('.loginbanner').addClass('on');
             });
 
             var isB2BNameChoice = false;
@@ -1932,7 +1936,10 @@ categoryMenu.stop(true,true).slideUp(200);
                     <a href="/account/find-password" class="findPassWord"><span class="i"></span>비밀번호 찾기</a>
                 </div>
             </div>
-            <div class="snsLogin">
+            <div class="loginbanner">
+                <img src="https://www.krpia.co.kr/resources/images/page/login/KRpiaLogin.jpg">               
+            </div>
+            <div class="snsLogin on">
                 <div class="tit">
                     SNS 간편 로그인
                 </div>
