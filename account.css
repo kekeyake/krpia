@@ -154,7 +154,8 @@
     .krpiaLogin .loginbox .findInfo a .i{display:inline-block; margin-right:5px; width:17px; height:17px; vertical-align: middle; background: url("../images/common/sprite_common.png") 0 0 no-repeat;}
     .krpiaLogin .loginbox .findInfo a.findId .i{background-position: -127px 0px;}
     .krpiaLogin .loginbox .findInfo a.findPassWord .i{background-position: -145px 0px;}
-    .krpiaLogin .loginbanner{display:none; float:left; margin-left:30px;}
+    .krpiaLogin .loginbanner{display:none !important; float:none; margin-left:0;}
+    .krpiaLogin .loginbanner.on {display: block !important;}
     .krpiaLogin .loginTop{margin-bottom:20px;}
     .krpiaLogin .loginConRow{padding:20px 20px; clear:both;}
     .krpiaLogin .loginConRow .ti{margin-bottom:15px;}
@@ -225,6 +226,6 @@
 
 @media all and (max-width : 768px) {
     .krpiaLogin{padding:0}
-    .krpiaLogin .loginbanner{display:block!important;float:none;margin:30px 0 0 0}
-    .krpiaLogin .loginbanner img{display:block;width:100%}
+    /* .krpiaLogin .loginbanner{display:block!important;float:none;margin:30px 0 0 0}
+    .krpiaLogin .loginbanner img{display:block;width:100%} */
 }
