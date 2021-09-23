@@ -226,6 +226,7 @@
 
 @media all and (max-width : 768px) {
     .krpiaLogin{padding:0}
-    /* .krpiaLogin .loginbanner{display:block!important;float:none;margin:30px 0 0 0}
-    .krpiaLogin .loginbanner img{display:block;width:100%} */
+    .krpiaLogin .loginbanner{display:none!important;float:none;margin:30px 0 0 0}
+    .krpiaLogin .loginbanner.on {display: block !important;}
+    .krpiaLogin .loginbanner img{display:block;width:100%}
 }
