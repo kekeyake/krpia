@@ -1,0 +1,228 @@
+/* 페이지 : 로그인 */
+.krpiaLogin{padding:30px 0px;}
+.krpiaLogin .loginTop{padding:0px 192px 30px; overflow:hidden; border-bottom:1px solid #ddd;}
+.krpiaLogin .loginbox{float:left; width:360px;}
+.krpiaLogin .loginbox.b2c .b2cItem{display:none;}
+.krpiaLogin .loginbox .b2bItem{position:relative; z-index:10;}
+.krpiaLogin .loginbox .b2cItem{position:relative; z-index:10; display:list-item;}
+.krpiaLogin .loginbox .btnLogin .btntxt{width:100%; padding:0px;}
+.krpiaLogin .loginbox .loginType{padding:10px 0px;}
+.krpiaLogin .loginbox .loginType a{display:inline-block; padding:0px 12px; font-size:14px;}
+.krpiaLogin .loginbox .loginType .on{color:#A34545; text-decoration: underline;}
+.krpiaLogin .loginbox .inpForm{}
+.krpiaLogin .loginbox .inpForm>li{margin-bottom:10px;}
+.krpiaLogin .loginbox .inpForm li .popCompanyList{position:absolute; z-index:10; top:34px; left:0px; width:100%;}
+.krpiaLogin .loginbox .inpForm li .popCompanyList li{margin:0px;}
+.krpiaLogin .loginbox .inpForm .inpbx{position:relative; display:block; margin:0px; padding-right:30px;}
+.krpiaLogin .loginbox .inpForm .inpbx .txt{font-size:14px;}
+.krpiaLogin .loginbox .inpForm .inpbx .checkMsg{position:absolute; right:0px; top:2px;}
+.krpiaLogin .loginbox .findInfo{padding:20px 0px; overflow:hidden;}
+.krpiaLogin .loginbox .findInfo a{display:block; float:left; width:50%; text-align:center; font-size:14px;}
+.krpiaLogin .loginbox .findInfo a .i{display:inline-block; margin-right:5px; width:17px; height:17px; vertical-align: middle; background: url("https://www.krpia.co.kr/resources/images/common/sprite_common.png") 0 0 no-repeat;}
+.krpiaLogin .loginbox .findInfo a.findId .i{background-position: -127px 0px;}
+.krpiaLogin .loginbox .findInfo a.findPassWord .i{background-position: -145px 0px;}
+.krpiaLogin .loginbanner{float:left; margin-left:30px;}
+.krpiaLogin .loginTop{margin-bottom:20px;}
+.krpiaLogin .loginConRow{padding:20px 20px; clear:both;}
+.krpiaLogin .loginConRow .ti{margin-bottom:15px;}
+.krpiaLogin .loginConRow ul{margin-bottom:15px;}
+.krpiaLogin .companySearch{position:relative; width:240px; padding-right:75px;}
+.krpiaLogin .companySearch .inpbx{display:block; margin:0px; vertical-align: top;}
+.krpiaLogin .companySearch .btntxt{position:absolute; top:0px; right:0px; min-width:0px; width:70px;}
+.krpiaLogin .companySearch p{margin-top:5px; font-size:13px; color:#C1272D;}
+.krpiaLogin .companySearch .popJoincssByTxt{width:240px;}
+
+/* 페이지 : sns로그인 */
+.krpiaLogin .snsLogin {margin-left: 30px;padding-left: 30px;float: left;box-sizing: border-box;border-left: 1px solid #e7e7e7;width: 50%;}
+.krpiaLogin .snsLogin .tit {padding: 0px 12px;font-size: 14px;}
+.krpiaLogin .snsLogin li {margin-bottom: 15px;}
+.krpiaLogin .snsLogin li:last-child {margin-bottom: 0;}
+.krpiaLogin .snsLogin .snsTopArea {margin-top: 20px;}
+.krpiaLogin .snsLogin .snsTopArea li a span:before {display: inline-block;width: 37px;height: 33px;margin: 0px 25px 5px 0;content: "";vertical-align: middle;background: url(member_sfix_icon.png) no-repeat;}
+.krpiaLogin .snsLogin .snsTopArea li a.kakao span:before {background-position: -136px 0px;}
+.krpiaLogin .snsLogin .snsTopArea li a.google span:before {background-position: -48px 2px;}
+.krpiaLogin .snsLogin span.textHidden {display: none;}
+.krpiaLogin .snsLogin span.requiredText {position: relative;line-height: 20px;color: #EF4348;text-align: center;}
+.krpiaLogin .snsLogin span.requiredText:before {display: inline-block;position: relative;top: -3px;width: 20px;height: 20px;content: "";vertical-align: middle;background: url(arrow_reply.png) no-repeat;}
+.krpiaLogin .snsLogin a {display: block;width: 100%;height: 62px;padding:13px 0 0 31px;box-sizing: border-box;}
+.krpiaLogin .snsLogin a span {color:#fff;font-size: 16px;}
+.krpiaLogin .snsLogin a.kakao {background-color: #FEE500;}
+.krpiaLogin .snsLogin a.kakao span {color:#191919;}
+.krpiaLogin .snsLogin a.naver {background-color: #00c73c;}
+.krpiaLogin .snsLogin a.google {background-color: #cc3731;}
+
+/* 페이지 : 간편외교인증 */
+.account .easyLogin .easyLoginForm{}
+.account .easyLogin .easyLoginForm .formHorizontal{width:440px; margin: 10px auto;}
+.account .easyLogin .easyLoginForm .btnGroup{padding:15px 0px 30px;}
+.account .easyLogin .easyLoginForm .dropdown{float:left;}
+.account .easyLogin .easyLoginForm .job .dropdown{width:250px;}
+.account .easyLogin .easyLoginForm .major .dropdown{width:120px;}
+.account .easyLogin .easyLoginDesc{padding:30px 0px 0px 300px; border-top:1px solid #ddd;}
+.account .easyLogin .easyLoginDesc .ti{font-size:15px; font-weight: bold; margin-bottom:15px;}
+.account .easyLogin .easyLoginDesc .txt{margin-top:15px; font-size:13px;}
+.account .easyLogin .easyLoginDesc .txt strong{color: #249CFF;}
+.account .easyLogin .easyLoginMsg{padding:30px 0px 40px; text-align:center; font-size:14px;}
+.account .easyLogin .easyLoginMsg strong{font-weight: 600;}
+.account .easyLogin .easyLoginMsg .vdate{color:#C1272D;}
+
+
+/* 페이지 : 아이디/비번 찾기 */
+.findAccountInfo .findForm{}
+.findAccountInfo .findForm .btnGroup{padding:15px 0px;}
+.findAccountInfo .findForm .formHorizontal{width:300px; margin:0px auto 0px; padding-top:15px;}
+.findAccountInfo .findForm .formLabel{width:80px;}
+.findAccountInfo .findForm .formItem{padding-left:80px;}
+.findAccountInfo .findForm .inpbx{display:block;}
+.findAccountInfo .findForm .findNoti{padding:15px 0px; text-align:center;}
+.findAccountInfo .findResult{padding:15px; text-align:center;}
+.findAccountInfo .findResult .resultMsg{padding-top:15px; font-size:15px;}
+.findAccountInfo .findResult .resultTxt{padding:15px 0px; font-size:22px; color:#A34545;}
+.findAccountInfo .findResult .btnGroup{padding:15px 0px 30px;}
+.findAccountInfo .findResult .resultNoti{font-size:15px;}
+.findAccountInfo .findResult .resultNoti strong{color:#29ABE2;}
+
+/* 페이지 : 회원가입 */
+.joinCont .joinStep{padding:10px 0px 10px; overflow:hidden;}
+.joinCont .joinStep .ti{float:left; font-size:15px; font-weight: bold;}
+.joinCont .joinStep .stepbox{float:right;}
+.joinCont .joinStep .stepbox li{float:left; padding:0px 5px; font-size:15px;}
+.joinCont .joinStep .stepbox li.on{color:#249CFF;}
+.joinCont .termsCheckAll{margin:0px;}
+.joinCont .termsCheckAll .ti{margin-bottom:10px; font-size:15px;}
+.joinCont .termsCheckAll .checkbox{display: block; margin:0px; padding:15px; background: #F7F7F7;}
+.joinCont .termsCheckAll .checkbox label{font-size:14px;}
+.joinCont .termsBox{margin:0px; padding:20px 0px;border-bottom:1px solid #ddd;}
+.joinCont .termsBox .ti{margin-bottom:10px; font-weight: normal; font-size:15px;}
+.joinCont .termsBox .terms{margin-bottom:20px; height:200px; overflow-y:scroll; border:1px solid #ddd; background:#F9F9F9;}
+.joinCont .termsBox .termsd{margin-bottom:20px; height:auto; overflow-y:scroll; border:1px solid #ddd; background:#F9F9F9;}
+.joinCont .termsBox .checkbox{display:block;}
+.joinCont .termsBox .checkbox label{font-size:14px;}
+.joinCont .joinForm{padding:0px;}
+.joinCont .joinForm .ti{margin-bottom:15px; font-size:15px; font-weight:bold; color:#1A1A1A;}
+.joinCont .joinForm .ti .sub{font-weight:normal;}
+.joinCont .joinForm .innerbox{padding:30px; border:1px solid #ddd;}
+.joinCont .joinForm .formDesc{margin-bottom:20px; font-size:15px;}
+.joinCont .joinForm .inpbx{width:150px;}
+.joinCont .joinForm .item ul{overflow:hidden;}
+.joinCont .joinForm .item li{float:left; margin-right:10px;}
+.joinCont .joinForm .item li .inptxt{margin-left:10px;}
+.joinCont .btnGroup{padding:15px 0px;}
+.joinCont .joinForm.step1 .inptxt{width:260px;}
+.joinCont .joinForm.step1 .dropdown{min-width:80px;}
+.joinCont .joinForm.step2 .msg{margin-bottom:25px; font-size:16px;}
+.joinCont .joinForm.step2 .qgroup{margin-bottom:20px;}
+.joinCont .joinForm.step2 .qgroup .qtxt{margin-bottom:5px; font-size:15px;}
+.joinCont .joinForm.step2 .qgroup .chkgroup{overflow:hidden; padding-left:10px;}
+.joinCont .joinForm.step2 .qgroup .chkgroup .checkbox,
+.joinCont .joinForm.step2 .qgroup .chkgroup .radiobox{vertical-align:top; margin-top:5px; margin-right:5px;}
+.joinCont .joinForm.step2 .qgroup .chkgroup .inptxt{width:120px;}
+.joinCont .joinForm.step2 .qgroup .chkgroup li{float:left; margin-right:25px; padding:2px 0px;}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    /* 페이지 : 로그인 */
+    .krpiaLogin{padding:30px 0px;}
+    .krpiaLogin .loginTop{padding:0px 15px 30px; overflow:hidden; border-bottom:1px solid #ddd;}
+    .krpiaLogin .loginbox{float:none; width:auto;}
+    .krpiaLogin .loginbox.b2c .b2cItem{display:none;}
+    .krpiaLogin .loginbox .b2cItem{display:list-item;}
+    .krpiaLogin .loginbox .btnLogin .btntxt{width:100%; padding:0px;}
+    .krpiaLogin .loginbox .loginType{padding:10px 0px;}
+    .krpiaLogin .loginbox .loginType a{display:inline-block; padding:0px 12px; font-size:14px;}
+    .krpiaLogin .loginbox .loginType .on{color:#A34545; text-decoration: underline;}
+    .krpiaLogin .loginbox .inpForm{}
+    .krpiaLogin .loginbox .inpForm li{margin-bottom:10px;}
+    .krpiaLogin .loginbox .inpForm .inpbox{display:block;}
+    .krpiaLogin .loginbox .findInfo{padding:20px 0px; overflow:hidden;}
+    .krpiaLogin .loginbox .findInfo a{display:block; float:left; width:50%; text-align:center; font-size:14px;}
+    .krpiaLogin .loginbox .findInfo a .i{display:inline-block; margin-right:5px; width:17px; height:17px; vertical-align: middle; background: url("../images/common/sprite_common.png") 0 0 no-repeat;}
+    .krpiaLogin .loginbox .findInfo a.findId .i{background-position: -127px 0px;}
+    .krpiaLogin .loginbox .findInfo a.findPassWord .i{background-position: -145px 0px;}
+    .krpiaLogin .loginbanner{display:none; float:left; margin-left:30px;}
+    .krpiaLogin .loginTop{margin-bottom:20px;}
+    .krpiaLogin .loginConRow{padding:20px 20px; clear:both;}
+    .krpiaLogin .loginConRow .ti{margin-bottom:15px;}
+    .krpiaLogin .loginConRow ul{margin-bottom:15px;}
+    .krpiaLogin .companySearch{position:relative; width:auto; padding-right:75px;}
+    .krpiaLogin .companySearch .inpbx{display:block; margin:0px; vertical-align: top;}
+    .krpiaLogin .companySearch .btntxt{position:absolute; top:0px; right:0px; min-width:0px;}
+    .krpiaLogin .companySearch p{margin-top:5px; font-size:13px; color:#C1272D;}
+    .krpiaLogin .companySearch .popJoincssByTxt{width:auto;}
+
+    /* 페이지 : sns로그인 */
+    .krpiaLogin .snsLogin {margin: 20px 0 0 0;padding: 20px 0 0 0;float: none;border-left: 0 solid #e7e7e7;border-top: 1px solid #e7e7e7; width: 100%;}
+    .krpiaLogin .snsLogin .tit {padding: 0px 12px;font-size: 14px;}
+    .krpiaLogin .snsLogin li {margin-bottom: 15px;}
+    .krpiaLogin .snsLogin li:last-child {margin-bottom: 0;}
+    .krpiaLogin .snsLogin .snsTopArea {margin-top: 20px;}    
+
+    /* 페이지 : 간편외교인증 */
+    .account .easyLogin .easyLoginForm{}
+    .account .easyLogin .easyLoginForm .formHorizontal{width:auto;}
+    .account .easyLogin .easyLoginDesc{padding:30px 0px 0px 0px;}
+
+    /* 페이지 : 아이디/비번 찾기 */
+    .findAccountInfo .findForm{}
+    .findAccountInfo .findForm .btnGroup{padding:15px 0px;}
+    .findAccountInfo .findForm .formHorizontal{width:auto; margin:0px; padding-top:0px;}
+    .findAccountInfo .findForm .formLabel{width:auto;}
+    .findAccountInfo .findForm .formItem{padding-left:0px;}
+    .findAccountInfo .findForm .inpbx{display:block;}
+    .findAccountInfo .findForm .findNoti{padding:15px 0px; text-align:center;}
+    .findAccountInfo .findResult{padding:15px; text-align:center;}
+    .findAccountInfo .findResult .resultMsg{padding-top:15px; font-size:15px;}
+    .findAccountInfo .findResult .resultTxt{padding:15px 0px; font-size:22px; color:#A34545;}
+    .findAccountInfo .findResult .btnGroup{padding:15px 0px 30px;}
+    .findAccountInfo .findResult .resultNoti{font-size:15px;}
+    .findAccountInfo .findResult .resultNoti strong{color:#29ABE2;}
+
+    /* 페이지 : 회원가입 */
+    .account .joinCont .termsBox{margin:0px; padding:20px 0px;border-bottom:1px solid #ddd;}
+    .account .joinCont .termsBox .ti{margin-bottom:10px; font-weight: normal; font-size:15px;}
+    .account .joinCont .termsBox .terms{margin-bottom:10px; height:200px; overflow-y:scroll; border:1px solid #ddd; background:#F9F9F9;}
+    .account .joinCont .termsBox .checkbox{display:block;}
+    .account .joinCont .termsBox .checkbox label{font-size:14px;}
+    .account .joinCont .joinForm{padding:0px;}
+    .account .joinCont .joinForm .ti{font-size:14px;}
+    .account .joinCont .joinForm .innerbox{padding:15px 0px 0px 0px; border:0; border-top:1px solid #ddd;}
+    .account .joinCont .joinForm.step1 .inpbx{display:block; width:auto;}
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+/* 180614_sdh806 */
+.krpiaLogin .loginTop{margin-top:40px;border-bottom:0}
+.popCompanyList .lst_empty a{cursor:default;text-decoration:none!important}
+
+.b2bName_check{display:none;padding:10px 5px 20px 10px}
+.b2bName_check p{display:none;line-height:24px;font-size:13px;color:#c50000}
+
+@media all and (max-width : 768px) {
+    .krpiaLogin{padding:0}
+    .krpiaLogin .loginbanner{display:block!important;float:none;margin:30px 0 0 0}
+    .krpiaLogin .loginbanner img{display:block;width:100%}
+}
